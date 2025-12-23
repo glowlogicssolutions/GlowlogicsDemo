@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #0b0f2c;
+    color: white;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero */
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
+.btn {
+    display: inline-block;
+    background: #0b0f2c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: #e0e0e0;
+    padding: 20px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+/* Form */
+#contactForm {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px;
+    background: #0b0f2c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}    
